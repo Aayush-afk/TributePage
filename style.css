@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+    font-family: "Open sans",sans-serif;
+    background-color: black;
+    color: rgb(18, 247, 170);
+    position: relative;
+    background: transparent;
+}
+    
+body::before{
+    content: "";
+    position: fixed;
+    background: #040404 url("images/disney3.png") top right no-repeat;
+    left: 0;
+    background-size: cover;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -1;
+}
+
+.name{
+    text-align: center;
+    padding-top: 3%;
+    height: 30vh;
+    font-size: 60px;
+}
+
+.age{
+    padding-top: 1%;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+.tagline{
+    font-size: 30px;
+    padding-top: 1.5%;
+}
+
+.intro{
+    text-align: center;
+    border: 2px solid rgb(16, 112, 150);
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+}
+
+.image{
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 2px solid rgb(16, 112, 150);
+    margin-top: 20px;
+}
+
+.image img{
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 20px;   
+}
+
+.tagline2{
+    margin: 5px;
+    color: rgb(255, 0, 0);
+    font-weight: 850;
+    background-color: rgba(23, 122, 168, 0.295);
+}
+
+.timeline{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.timeline ul li span{
+    font-weight: 800;
+}
+
+.end{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.end a{
+    color: rgb(238, 255, 0);
+}
